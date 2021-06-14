@@ -9,9 +9,9 @@ app = Flask(__name__)
 
 #Config MySQL
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'your database username'
-app.config['MYSQL_PASSWORD'] = 'your database password'
-app.config['MYSQL_DB'] = 'your database name'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'user123'
+app.config['MYSQL_DB'] = 'myflaskapp'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 #init mySQL
